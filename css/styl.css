@@ -36,7 +36,17 @@ a:hover {
 #header .logo {
   max-width: 190px line=-height 0;
 }
-
+#header .logo a {
+  display: block;
+}
+#header .navi {
+  display: flex;
+  align-items: center;
+}
+#header .navi li {
+  font-size: 14px;
+  margin-left: 40px;
+}
 /* ----------------------------------
 スマートフォン
 ---------------------------------- */
