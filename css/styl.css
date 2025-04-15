@@ -34,7 +34,7 @@ a:hover {
   padding-bottom: 35px;
 }
 #header .logo {
-  max-width: 190px line=-height 0;
+  max-width: 120px;
 }
 #header .logo a {
   display: block;
@@ -47,8 +47,66 @@ a:hover {
   font-size: 14px;
   margin-left: 40px;
 }
+.mainvisual {
+  margin-bottom: 80px;
+}
+.introduction {
+  margin-bottom: 80px;
+  text-align: center;
+}
+.introduction .catchphrase {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.introduction .text {
+  font-size: 14px;
+}
+.section-title {
+  font-weight: normal;
+  margin-top: 40px;
+}
+.section-title .en {
+  display: block;
+  font-size: 40px;
+}
+.section-title .ja {
+  display: block;
+  font-size: 14px;
+}
+#profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 120px;
+}
+#profile .img {
+  width: 50px;
+}
+#profile .detail {
+  width: 50%;
+  padding-left: 80px;
+}
+#profile .detail p {
+  font-size: 14px;
+  line-height: 2;
+}
 /* ----------------------------------
 スマートフォン
 ---------------------------------- */
 @media screen and (max-width: 767px) {
+  .mainvisual {
+    margin-bottom: 50px;
+  }
+
+  .introduction {
+    margin-bottom: 50px;
+  }
+
+  .introduction .catchphrase {
+    font-size: 16px;
+  }
+
+  .introduction .text {
+    text-align: left;
+  }
 }
